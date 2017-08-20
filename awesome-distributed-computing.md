@@ -1,47 +1,62 @@
 # Resources on Distributed Computing and Distributed Systems
 
-[This document](https://github.com/hengxin/hengxin.github.io/blob/source/source/_posts/2015-07-20-dc-res.markdown) contains a ***big list*** of resources on distributed Computing and distributed systems, 
+This document contains a ***big list*** of resources on distributed computing and distributed systems, 
 including people, conferences/journals, lecture notes, open courses, videos, and so on.
 
 ## People
 
-### People working on the Theory of Distributed Computing
-
-* [Leslie Lamport](http://research.microsoft.com/en-us/um/people/lamport/pubs/pubs.html)
+### People on Fundamentals of Distributed Computing Theory
+* [Leslie Lamport](http://www.lamport.org/)
+  * [The Writings of Leslie Lamport](http://lamport.azurewebsites.net/pubs/pubs.html)
 * [Butler W. Lampson](http://research.microsoft.com/en-us/um/people/blampson/)
 * [Barbara Liskov](http://www.pmg.csail.mit.edu/~liskov/)
-* [Hagit Attiya](http://www.cs.technion.ac.il/~hagit/)
 * [Nancy A. Lynch](http://people.csail.mit.edu/lynch/)
+* [Hagit Attiya](http://www.cs.technion.ac.il/~hagit/)
 * [James Aspnes](http://cs-www.cs.yale.edu/homes/aspnes/)
+* [Sergio Rajsbaum](http://www.matem.unam.mx/rajsbaum/) 
+  > My research interests are in the theory of distributed computing, 
+  especially issues related to coordination, complexity and computability.
+* [Sam Toueg](http://www.cs.cornell.edu/annual_report/toueg.htm):
+  * [DBLP](http://www.informatik.uni-trier.de/~ley/pers/hd/t/Toueg:Sam.html)
+  * [Work on Failure Detectors](http://www.cs.cornell.edu/home/sam/FDpapers.html)
+* [Joseph Y. Halpern](http://www.cs.cornell.edu/home/halpern/)
+  * [Joseph Y. Halpern's Publications](https://www.cs.cornell.edu/home/halpern/node8.html)
+  > My research focuses on the interface between game and decision theory and computer science, 
+  on reasoning about knowledge and uncertainty, and on causality. 
+  
+  > I described myself as someone with a Ph.D. in mathematics, 
+  who calls himself a computer scientist,
+  and is giving a talk to economists about a subject mainly studied by philosophers.
+* [Marcos K. Aguilera](http://mkaguilera.kawazoe.org/)
+  > Theory and Practice of Distributed Systems
+* [Idit Keidar](http://webee.technion.ac.il/~idish/index.html)
+* [Gadi Taubenfeld](http://www.faculty.idc.ac.il/gadi/)
+  >  My primary research interests are in concurrent and distributed computing.
+* [Jennifer Welch](https://parasol.tamu.edu/~welch/)
+* [Michel Raynal](http://www.irisa.fr/prive/raynal/) 
+* [Wojciech M. Golab](http://dblp.uni-trier.de/pers/hd/g/Golab:Wojciech_M=)
+* [Carole Delporte-Gallet](https://www.irif.fr/~cd/)
+  * [DBLP](http://dblp.uni-trier.de/pers/hd/d/Delporte=Gallet:Carole.html)
+
+### People on Fundamentals of Multiprocessor Programming Theory
 * [Maurice Herlihy](http://cs.brown.edu/~mph/)
 * [Nir Shavit @MIT](http://people.csail.mit.edu/shanir/)
-* [Sam Toueg @ DBLP](http://www.informatik.uni-trier.de/~ley/pers/hd/t/Toueg:Sam.html)
-* [JOSEPH Y. HALPERN](http://www.cs.cornell.edu/home/halpern/)
-* [Marcos K. Aguilera @ Microsoft Research](http://research.microsoft.com/en-us/people/aguilera/)
-* [Idit Keidar](http://webee.technion.ac.il/~idish/index.html)
-* [Gadi Taubenfeld @ DBLP](http://dblp.uni-trier.de/pers/hd/t/Taubenfeld:Gadi)
-* [Jennifer Lundelius Welch @ Texas A&M University](https://parasol.tamu.edu/~welch/)
-* [Sergio Rajsbaum](http://www.matem.unam.mx/~rajsbaum/); [Sergio Rajsbaum](http://dblp.uni-trier.de/pers/hd/r/Rajsbaum:Sergio)
-* [Michel Raynal](http://www.irisa.fr/prive/raynal/); [Michel Raynal @ DBLP](http://dblp.uni-trier.de/pers/hd/r/Raynal:Michel)
-*[Carole Delporte-Gallet @ DBLP](http://dblp.uni-trier.de/pers/hd/d/Delporte=Gallet:Carole)
-* [Wojciech M. Golab @ DBLP](http://dblp.uni-trier.de/pers/hd/g/Golab:Wojciech_M=)
-
-### People working on the Theory of Multiprocessor Programming
 * [Victor Luchangco @ Oracle Labs](https://labs.oracle.com/pls/apex/f?p=labs:bio:0:76)
 > Victor Luchangco works in the Scalable Synchronization Group of Oracle Labs. His research focuses on developing algorithms and mechanisms to support concurrent programming on large-scale distributed systems.
 
 * [Mark Moir @ Oracle Labs](https://labs.oracle.com/pls/apex/f?p=labs:bio:0:86)
-> Moir's main research interests concern practical and theoretical aspects of concurrent, distributed, and real-time systems, particularly hardware and software support for programming constructs that facilitate scalable synchronization in shared memory multiprocessors.
+> Moir's main research interests concern practical and theoretical aspects of concurrent, distributed, and real-time systems, 
+particularly hardware and software support for programming constructs 
+that facilitate scalable synchronization in shared memory multiprocessors.
 
-[Sarita V. Adve](http://dblp.uni-trier.de/pers/hd/a/Adve:Sarita_V=) `lots on memory models`
+* [Sarita V. Adve](http://dblp.uni-trier.de/pers/hd/a/Adve:Sarita_V=) 
+> On memory models.
 
-### People working on the Theory of Distributed Systems
+### People on the Theory of Distributed Systems
 * [Lidong Zhou @ Microsoft Research](http://research.microsoft.com/en-us/people/lidongz/)
-* [Haifeng YU](http://www.comp.nus.edu.sg/~yuhf/)
+* [Haifeng Yu](http://www.comp.nus.edu.sg/~yuhf/)
 * [Peter Bailis](http://www.bailis.org/)
-
-### People working on Real Large-scale Distributed Systems
-- [Brian F. Cooper](http://www.brianfrankcooper.net/)
+* [Brian F. Cooper](http://www.brianfrankcooper.net/)
 > I am a software engineer at Google. Before that, I was a principal research scientist at Yahoo! Research. Before that I was an assistant professor at Georgia Tech, and before that I was a PhD student at Stanford.
 
 ## Groups
@@ -50,80 +65,76 @@ including people, conferences/journals, lecture notes, open courses, videos, and
 * [Google Research Group](http://research.google.com/)
 * [Yahoo! Labs](http://research.yahoo.com/)
 
-## SIG
+## Conferences, Journals, Workshops, and Magazines (By Topics)
+
+### SIGs:
 * [SIGACT](http://www.sigact.org/)
 * [SIGOPS](http://www.sigops.org/)
 * [SIGMOD](http://www.sigmod.org/)
 * [SIGPLAN](http://www.sigplan.org/) `Special Interest Group on Programming Languages`
 
-## Conferences (at DBLP)
-
 ### General Theory of Computer Science
-[FCRC'15 Federated Computing Research Conference](http://fcrc.acm.org/) `FCRC 2015 assembles a spectrum of affiliated research conferences and workshops into a week long coordinated meeting held at a common time in a common place.`;
-[FOCS](http://www.dblp.org/search/#query=venue:focs: &qp=H1.20:W1.1:F1.4:F2.1:F3.4:F4.2);
-[STOC](http://dblp.uni-trier.de/search/publ?q=venue%3ASTOC%3A);
-[SODA](http://dblp.uni-trier.de/search/publ?q=venue%3ASODA%3A);
-[MFCS](http://dblp.uni-trier.de/search/publ?q=Mathematical%20Foundations%20of%20Computer%20Science) `Mathematical Foundations of Computer Science`;
+#### Conferences
+* [FOCS: Annual Symposium on Foundations of Computer Science](http://dblp.uni-trier.de/db/conf/focs/)
+* [STOC: Symposium on the Theory of Computing](http://dblp.uni-trier.de/db/conf/stoc/)
+* [SODA: Symposium on Discrete Algorithms](http://dblp.uni-trier.de/db/conf/soda/)
+* [MFCS: Mathematical Foundations of Computer Science](http://dblp.uni-trier.de/db/conf/mfcs/)
 
-
-### Distributed Computing and Concurrency Theory
-
-[PODC](http://www.dblp.org/search/index.php#query=venue:podc:&qp=H1.1000:W1.1:F1.4:F2.1:F3.4:F4.2);
-[DISC](http://www.dblp.org/search/index.php#query=venue:disc:&qp=H1.587:W1.1:F1.4:F2.1:F3.4:F4.2);
-[ICDCS](http://dblp.uni-trier.de/search/publ?q=venue%3AICDCS%3A);
-[OPODIS](http://dblp.uni-trier.de/search/publ?q=venue%3AOPODIS%3A);
-[SRDS](http://dblp.uni-trier.de/search/publ?q=venue%3ASRDS%3A)
-[ICDCN](http://dblp.uni-trier.de/search/publ?q=venue%3AICDCN%3A)
-
-[CONCUR](http://dblp.uni-trier.de/search/publ?q=venue%3ACONCUR%3A);
-[SPAA](http://dblp.uni-trier.de/search/publ?q=venue%3ASPAA%3A)
-
-
-## Programming Languages
-
-[POPL](http://dblp.uni-trier.de/search/publ?q=venue%3APOPL%3A);
-[PLDI](http://dblp.uni-trier.de/search/publ?q=venue%3APLDI%3A);
-
-
-### Systems
-
-[NSDI](http://dblp.uni-trier.de/search/publ?q=NSDI);
-[OSDI](http://dblp.uni-trier.de/search/publ?q=venue%3AOSDI%3A);
-[SOSP](http://dblp.uni-trier.de/search/publ?q=venue%3ASOSP%3A);
-
-## Keywords at DBLP
-[weighted automata](http://dblp.uni-trier.de/search/publ?q=weighted%20automata); [replicated transactional](http://dblp.uni-trier.de/search/publ?q=replicated%20transactional);
-[Geometric Automata](http://dblp.uni-trier.de/search/publ?q=Geometric%20Automata);
-[probabilistic quorum](http://dblp.uni-trier.de/search/publ?q=probabilistic%20quorum);
-[geometry concurrency](http://dblp.uni-trier.de/search/publ?q=geometry%20concurrency)
-
-## Journals
+#### Journals
 * [Journal of the ACM (JACM)](http://jacm.acm.org/); [JACM in DBLP](http://www.dblp.org/search/index.php#query=venue:j_acm_jacm_:&qp=H1.40:W1.1:F1.4:F2.1:F3.4:F4.1)
-* [Distributed Computing (DC)](http://www.springer.com/computer/communication+networks/journal/446); [DC in DBLP](http://www.dblp.org/search/index.php#query=venue:distributed_computing_dc_:&qp=H1.519:W1.1:F1.4:F2.1:F3.4:F4.1)
-* [ACM Transactions on Computer Systems (TOCS)](http://tocs.acm.org/); [TOCS in DBLP](http://www.dblp.org/search/#query=TOCS&qp=H1.407:W1.3:F1.4:F2.4:F3.4:F4.2)
-* [The VLDB Journal](http://dl.acm.org/citation.cfm?id=J869)
 * [SIAM Journal on Computing (SICOMP)](http://epubs.siam.org/journal/smjcat); [SICOMP in DBLP](http://www.dblp.org/search/index.php#query=venue:siam_j_comput_siamcomp_:&qp=H1.1000:W1.1:F1.4:F2.1:F3.4:F4.1)
+
+### Distributed Computing Theory
+#### Conferences
+* [PODC](http://www.dblp.org/search/index.php#query=venue:podc:&qp=H1.1000:W1.1:F1.4:F2.1:F3.4:F4.2)
+* [DISC](http://www.dblp.org/search/index.php#query=venue:disc:&qp=H1.587:W1.1:F1.4:F2.1:F3.4:F4.2)
+* [OPODIS](http://dblp.uni-trier.de/search/publ?q=venue%3AOPODIS%3A)
+#### Journals
+* [Distributed Computing (DC)](http://www.springer.com/computer/communication+networks/journal/446); [DC in DBLP](http://www.dblp.org/search/index.php#query=venue:distributed_computing_dc_:&qp=H1.519:W1.1:F1.4:F2.1:F3.4:F4.1)
+#### Magazines
+* [Bulletin of EATCS (European Association for Theoretical Computer Science)](http://www.eatcs.org/index.php/on-line-issues)
+* [Distributed Computing Column of Bulletin of EATCS](http://webee.technion.ac.il/~idish/sigactNews/)
+
+### Programming Languages and Concurrency Theory
+#### Conferences
+* [PLDI](http://dblp.uni-trier.de/search/publ?q=venue%3APLDI%3A);
+* [POPL](http://dblp.uni-trier.de/search/publ?q=venue%3APOPL%3A);
+* [SPAA](http://dblp.uni-trier.de/search/publ?q=venue%3ASPAA%3A)
+* [PPoPP: Principles & Practice of Parallel Programming](http://dblp.uni-trier.de/db/conf/ppopp/)
+* [CONCUR](http://dblp.uni-trier.de/search/publ?q=venue%3ACONCUR%3A)
+#### Magazines
+* [Concurrency Column of Bulletin of EATCS](http://www.ru.is/faculty/luca/BEATCS/)
+
+### Distributed Systems (and More General)
+* [ICDCS](http://dblp.uni-trier.de/search/publ?q=venue%3AICDCS%3A)
+* [SRDS](http://dblp.uni-trier.de/search/publ?q=venue%3ASRDS%3A)
+* [ICDCN](http://dblp.uni-trier.de/search/publ?q=venue%3AICDCN%3A)
+* [NSDI](http://dblp.uni-trier.de/search/publ?q=NSDI)
+* [OSDI](http://dblp.uni-trier.de/search/publ?q=venue%3AOSDI%3A)
+* [SOSP](http://dblp.uni-trier.de/search/publ?q=venue%3ASOSP%3A)
+
+### Formal Methods
+* [CAV](http://dblp.uni-trier.de/db/conf/cav/)
+* [VMCAI: Verification, Model Checking and Abstract Interpretation](http://dblp.uni-trier.de/db/conf/vmcai/)
+* [FM: Formal Methods](http://dblp.uni-trier.de/db/conf/fm/)
+* [FMSD: Formal Methods in System Design](http://dblp.uni-trier.de/db/journals/fmsd/)
+
+### Databases
+#### Journals
+* [ACM Transactions on Computer Systems (TOCS)](http://tocs.acm.org/) 
+  * [DBLP](http://www.dblp.org/search/#query=TOCS&qp=H1.407:W1.3:F1.4:F2.4:F3.4:F4.2)
+* [The VLDB Journal](http://dl.acm.org/citation.cfm?id=J869)
 
 ## Workshops
 - [Dagstuhl Seminar 13081 – Consistency in Distributed Systems](http://drops.dagstuhl.de/opus/volltexte/2013/4014/pdf/dagrep_v003_i002_p092_s13081.pdf)
 - [PaPoC 2015 - Workshop on Principles and Practice of Consistency for Distributed Data](http://papoc.di.uminho.pt/)
-
 - [Epidemic Algorithms and Processes: From Theory to Applications](http://www.dagstuhl.de/en/program/calendar/semhp/?semnr=13042)
 > January 20 – 25 , 2013, Dagstuhl Seminar 13042
-
 - [And: the report  from Dagstuhl Seminar 13042](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.310.104&rep=rep1&type=pdf)
-
 - [And the slides from Dagstuhl Seminar 13042](http://boemund.dagstuhl.de/mat//index.en.phtml?13081)
-
 - [Lower Bounds for Distributed Computing (09w5114)](https://www.birs.ca/events/2009/5-day-workshops/09w5114)
 > This workshop will bring together experts in the field (and some exceptional graduate students and postdocs) to discuss fundamental distributed computing problems whose computational complexities have not been resolved and the limitations of current techniques for obtaining lower bounds for these problems.
-
 - [FuDiCo: Future Directions in Distributed Computing 2004](http://www.cs.utexas.edu/users/lorenzo/sos/); [FuDiCo @ DBLP'2003](http://dblp.uni-trier.de/search/publ?q=Future%20Directions%20in%20Distributed%20Computing)
-
-## Magazines
-* [Bulletin of EATCS (European Association for Theoretical Computer Science)](http://www.eatcs.org/index.php/on-line-issues)
-* [Distributed Computing Column of Bulletin of EATCS](http://webee.technion.ac.il/~idish/sigactNews/)
-* [Concurrency Column of Bulletin of EATCS](http://www.ru.is/faculty/luca/BEATCS/)
 
 ## Prizes
 * [The Edsger W. Dijkstra Prize in Distributed Computing](http://www.podc.org/dijkstra/)
@@ -249,4 +260,3 @@ including people, conferences/journals, lecture notes, open courses, videos, and
 > Synthesis Lectures on Distributed Computing Theory is edited by Jennifer Welch of Texas A&M University and Nancy Lynch of the Massachusetts Institute of Technology. The series publishes  50- to 150-page publications on topics pertaining to distributed computing theory. The scope largely follows the purview of premier information and computer science conferences, such as ACM PODC, DISC, SPAA, OPODIS, CONCUR, DialM-POMC, ICDCS, SODA, Sirocco, SSS, and related conferences. Potential topics include, but not are limited to: distributed algorithms and lower bounds, algorithm design methods, formal modeling and verification of distributed algorithms, and concurrent data structures.
 
 ## Miscellaneous
-* [Open Directory Project (AoI Search)](http://www.dmoz.org/Computers/)
