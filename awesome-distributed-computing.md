@@ -11,8 +11,25 @@ including people, conferences/journals, lecture notes, open courses, videos, and
 * [Butler W. Lampson](http://research.microsoft.com/en-us/um/people/blampson/)
 * [Barbara Liskov](http://www.pmg.csail.mit.edu/~liskov/)
 * [Nancy A. Lynch](http://people.csail.mit.edu/lynch/)
-* [Hagit Attiya](http://www.cs.technion.ac.il/~hagit/)
+  * [Publications](http://groups.csail.mit.edu/tds/lynch-pubs.html)
+  > Distributed computing, real-time computing, algorithms, lower bounds,
+  formal modelling and verification, wireless network algorithms,
+  and biological distributed algorithms.
+* [Hagit Attiya](http://hagit.net.technion.ac.il/)
+  * [Publications](http://hagit.net.technion.ac.il/publications/)
+  > Distributed computation and theoretical computer science;
+  in particular: Fault-tolerance; Timing-based and asynchronous algorithms.
+* [Faith Ellen](http://www.cs.toronto.edu/~faith/)
+  > My research is in the theory of distributed computing.
+  I particularly like proving lower bounds on the complexity of concrete problems
+  with the goal of understanding how parameters of various models of computation affect their computational power.
+  I also study data structures in distributed and sequential models.
 * [James Aspnes](http://cs-www.cs.yale.edu/homes/aspnes/)
+* [Keren Censor-Hillel](http://ckeren.net.technion.ac.il/)
+  * [Publications](http://ckeren.net.technion.ac.il/publications/)
+  > My research interests are mainly in distributed computing,
+  especially probabilistic algorithms and lower bounds,
+  and theory of computing in general.
 * [Sergio Rajsbaum](http://www.matem.unam.mx/rajsbaum/) 
   > My research interests are in the theory of distributed computing, 
   especially issues related to coordination, complexity and computability.
@@ -59,8 +76,9 @@ that facilitate scalable synchronization in shared memory multiprocessors.
 * [Brian F. Cooper](http://www.brianfrankcooper.net/)
 > I am a software engineer at Google. Before that, I was a principal research scientist at Yahoo! Research. Before that I was an assistant professor at Georgia Tech, and before that I was a PhD student at Stanford.
 
-## Groups
-* [Theory of Distributed Systems (TDS) Group (Nancy A. Lynch)](http://groups.csail.mit.edu/tds/people.html)
+## Research Groups
+* [TDS: Theory of Distributed Systems Group](http://groups.csail.mit.edu/tds/people.html)
+  * Faculty: Nancy A. Lynch
 * [Idit Keidar's Research Group](http://webee.technion.ac.il/~idish/students.html)
 * [Google Research Group](http://research.google.com/)
 * [Yahoo! Labs](http://research.yahoo.com/)
@@ -75,19 +93,24 @@ that facilitate scalable synchronization in shared memory multiprocessors.
 
 ### General Theory of Computer Science
 #### Conferences
-* [FOCS: Annual Symposium on Foundations of Computer Science](http://dblp.uni-trier.de/db/conf/focs/)
+* [FOCS: Foundations of Computer Science](http://dblp.uni-trier.de/db/conf/focs/)
 * [STOC: Symposium on the Theory of Computing](http://dblp.uni-trier.de/db/conf/stoc/)
 * [SODA: Symposium on Discrete Algorithms](http://dblp.uni-trier.de/db/conf/soda/)
+* [ICALP: International Colloquium on Automata, Languages and Programming](http://dblp.uni-trier.de/db/conf/icalp/)
 * [MFCS: Mathematical Foundations of Computer Science](http://dblp.uni-trier.de/db/conf/mfcs/)
 
 #### Journals
-* [Journal of the ACM (JACM)](http://jacm.acm.org/); [JACM in DBLP](http://www.dblp.org/search/index.php#query=venue:j_acm_jacm_:&qp=H1.40:W1.1:F1.4:F2.1:F3.4:F4.1)
-* [SIAM Journal on Computing (SICOMP)](http://epubs.siam.org/journal/smjcat); [SICOMP in DBLP](http://www.dblp.org/search/index.php#query=venue:siam_j_comput_siamcomp_:&qp=H1.1000:W1.1:F1.4:F2.1:F3.4:F4.1)
+* [JACM: Journal of the ACM](http://jacm.acm.org/) 
+  * [JACM@DBLP](http://www.dblp.org/search/index.php#query=venue:j_acm_jacm_:&qp=H1.40:W1.1:F1.4:F2.1:F3.4:F4.1)
+* [SICOMP: SIAM Journal on Computing](http://epubs.siam.org/journal/smjcat)
+  * [SICOMP@DBLP](http://www.dblp.org/search/index.php#query=venue:siam_j_comput_siamcomp_:&qp=H1.1000:W1.1:F1.4:F2.1:F3.4:F4.1)
 
 ### Distributed Computing Theory
 #### Conferences
-* [PODC](http://www.dblp.org/search/index.php#query=venue:podc:&qp=H1.1000:W1.1:F1.4:F2.1:F3.4:F4.2)
+* [PODC](http://dblp.uni-trier.de/db/conf/podc/)
+  * [2017](http://dblp.uni-trier.de/db/conf/podc/podc2017.html)
 * [DISC](http://www.dblp.org/search/index.php#query=venue:disc:&qp=H1.587:W1.1:F1.4:F2.1:F3.4:F4.2)
+* [SIROCCO: Structural Information & Communication Complexity](http://dblp.uni-trier.de/db/conf/sirocco/)
 * [OPODIS](http://dblp.uni-trier.de/search/publ?q=venue%3AOPODIS%3A)
 #### Journals
 * [Distributed Computing (DC)](http://www.springer.com/computer/communication+networks/journal/446); [DC in DBLP](http://www.dblp.org/search/index.php#query=venue:distributed_computing_dc_:&qp=H1.519:W1.1:F1.4:F2.1:F3.4:F4.1)
@@ -106,15 +129,18 @@ that facilitate scalable synchronization in shared memory multiprocessors.
 * [Concurrency Column of Bulletin of EATCS](http://www.ru.is/faculty/luca/BEATCS/)
 
 ### Distributed Systems (and More General)
-* [ICDCS](http://dblp.uni-trier.de/search/publ?q=venue%3AICDCS%3A)
-* [SRDS](http://dblp.uni-trier.de/search/publ?q=venue%3ASRDS%3A)
-* [ICDCN](http://dblp.uni-trier.de/search/publ?q=venue%3AICDCN%3A)
-* [NSDI](http://dblp.uni-trier.de/search/publ?q=NSDI)
-* [OSDI](http://dblp.uni-trier.de/search/publ?q=venue%3AOSDI%3A)
-* [SOSP](http://dblp.uni-trier.de/search/publ?q=venue%3ASOSP%3A)
+* [NSDI: Networked Systems Design and Implementation](http://dblp.uni-trier.de/db/conf/nsdi/)
+* [OSDI: Operating Systems Design and Implementation](http://dblp.uni-trier.de/db/conf/osdi/)
+* [SOSP: Symposium on Operating Systems Principles](http://dblp.uni-trier.de/db/conf/sosp/)
+* [DSN: Dependable Systems and Networks](http://dblp.uni-trier.de/db/conf/dsn/)
+* [ICDCN: International Conference of Distributed Computing and Networking](http://dblp.uni-trier.de/db/conf/icdcn/)
+* [ICDCS: International Conference on Distributed Computing Systems](http://dblp.uni-trier.de/db/conf/icdcs/)
+* [SRDS: Symposium on Reliable Distributed Systems](http://dblp.uni-trier.de/db/conf/srds/)
+* [SoCC: Symposium on Cloud Computing](http://dblp.uni-trier.de/db/conf/cloud/)
+  * [2016](http://dblp.uni-trier.de/db/conf/cloud/socc2016.html)
 
 ### Formal Methods
-* [CAV](http://dblp.uni-trier.de/db/conf/cav/)
+* [CAV: Computer Aided Verification](http://dblp.uni-trier.de/db/conf/cav/)
 * [VMCAI: Verification, Model Checking and Abstract Interpretation](http://dblp.uni-trier.de/db/conf/vmcai/)
 * [FM: Formal Methods](http://dblp.uni-trier.de/db/conf/fm/)
 * [FMSD: Formal Methods in System Design](http://dblp.uni-trier.de/db/journals/fmsd/)
