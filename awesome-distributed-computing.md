@@ -24,6 +24,10 @@ including people, conferences/journals, lecture notes, open courses, videos, and
   I particularly like proving lower bounds on the complexity of concrete problems
   with the goal of understanding how parameters of various models of computation affect their computational power.
   I also study data structures in distributed and sequential models.
+* [Philipp Woelfel](http://pages.cpsc.ucalgary.ca/~woelfel/)
+	> - Theory of Distributed Computing
+	> - Randomized Algorithms and Data Structures
+	> - Computational Complexity
 * [James Aspnes](http://cs-www.cs.yale.edu/homes/aspnes/)
 * [Keren Censor-Hillel](http://ckeren.net.technion.ac.il/)
   * [Publications](http://ckeren.net.technion.ac.il/publications/)
@@ -54,10 +58,12 @@ including people, conferences/journals, lecture notes, open courses, videos, and
 * [Wojciech M. Golab](http://dblp.uni-trier.de/pers/hd/g/Golab:Wojciech_M=)
 * [Carole Delporte-Gallet](https://www.irif.fr/~cd/)
   * [DBLP](http://dblp.uni-trier.de/pers/hd/d/Delporte=Gallet:Carole.html)
+* [Eli Gafni](http://web.cs.ucla.edu/~eli/eli.html)
 
 ### People on Fundamentals of Multiprocessor Programming Theory
 * [Maurice Herlihy](http://cs.brown.edu/~mph/)
 * [Nir Shavit @MIT](http://people.csail.mit.edu/shanir/)
+  
 * [Victor Luchangco @ Oracle Labs](https://labs.oracle.com/pls/apex/f?p=labs:bio:0:76)
 > Victor Luchangco works in the Scalable Synchronization Group of Oracle Labs. His research focuses on developing algorithms and mechanisms to support concurrent programming on large-scale distributed systems.
 
@@ -104,28 +110,25 @@ that facilitate scalable synchronization in shared memory multiprocessors.
   * [JACM@DBLP](http://www.dblp.org/search/index.php#query=venue:j_acm_jacm_:&qp=H1.40:W1.1:F1.4:F2.1:F3.4:F4.1)
 * [SICOMP: SIAM Journal on Computing](http://epubs.siam.org/journal/smjcat)
   * [SICOMP@DBLP](http://www.dblp.org/search/index.php#query=venue:siam_j_comput_siamcomp_:&qp=H1.1000:W1.1:F1.4:F2.1:F3.4:F4.1)
+* [TCS](http://www.sciencedirect.com/science/journal/03043975?sdc=1)
+  * [TCS@DBLP](http://dblp.uni-trier.de/db/journals/tcs/)
 
 ### Distributed Computing Theory
-#### Conferences
 * [PODC](http://dblp.uni-trier.de/db/conf/podc/)
   * [2017](http://dblp.uni-trier.de/db/conf/podc/podc2017.html)
 * [DISC](http://www.dblp.org/search/index.php#query=venue:disc:&qp=H1.587:W1.1:F1.4:F2.1:F3.4:F4.2)
 * [SIROCCO: Structural Information & Communication Complexity](http://dblp.uni-trier.de/db/conf/sirocco/)
 * [OPODIS](http://dblp.uni-trier.de/search/publ?q=venue%3AOPODIS%3A)
-#### Journals
 * [Distributed Computing (DC)](http://www.springer.com/computer/communication+networks/journal/446); [DC in DBLP](http://www.dblp.org/search/index.php#query=venue:distributed_computing_dc_:&qp=H1.519:W1.1:F1.4:F2.1:F3.4:F4.1)
-#### Magazines
 * [Bulletin of EATCS (European Association for Theoretical Computer Science)](http://www.eatcs.org/index.php/on-line-issues)
 * [Distributed Computing Column of Bulletin of EATCS](http://webee.technion.ac.il/~idish/sigactNews/)
 
 ### Programming Languages and Concurrency Theory
-#### Conferences
 * [PLDI](http://dblp.uni-trier.de/search/publ?q=venue%3APLDI%3A);
 * [POPL](http://dblp.uni-trier.de/search/publ?q=venue%3APOPL%3A);
 * [SPAA](http://dblp.uni-trier.de/search/publ?q=venue%3ASPAA%3A)
 * [PPoPP: Principles & Practice of Parallel Programming](http://dblp.uni-trier.de/db/conf/ppopp/)
 * [CONCUR](http://dblp.uni-trier.de/search/publ?q=venue%3ACONCUR%3A)
-#### Magazines
 * [Concurrency Column of Bulletin of EATCS](http://www.ru.is/faculty/luca/BEATCS/)
 
 ### Distributed Systems (and More General)
@@ -139,11 +142,13 @@ that facilitate scalable synchronization in shared memory multiprocessors.
 * [SoCC: Symposium on Cloud Computing](http://dblp.uni-trier.de/db/conf/cloud/)
   * [2016](http://dblp.uni-trier.de/db/conf/cloud/socc2016.html)
 
-### Formal Methods
+### Formal Methods (Logic)
+* [LICS: Logic in Computer Science](http://dblp.uni-trier.de/db/conf/lics/)
 * [CAV: Computer Aided Verification](http://dblp.uni-trier.de/db/conf/cav/)
 * [VMCAI: Verification, Model Checking and Abstract Interpretation](http://dblp.uni-trier.de/db/conf/vmcai/)
 * [FM: Formal Methods](http://dblp.uni-trier.de/db/conf/fm/)
 * [FMSD: Formal Methods in System Design](http://dblp.uni-trier.de/db/journals/fmsd/)
+* [FAC: Formal Aspects of Computing](http://dblp.uni-trier.de/db/journals/fac/)
 
 ### Databases
 #### Journals
