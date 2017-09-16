@@ -29,6 +29,8 @@ including people, conferences/journals, lecture notes, open courses, videos, and
 	> - Randomized Algorithms and Data Structures
 	> - Computational Complexity
 * [James Aspnes](http://cs-www.cs.yale.edu/homes/aspnes/)
+* [Alexey Gotsman](http://software.imdea.org/~gotsman/)
+> My research interests are in methods and tools for developing correct concurrent and distributed software.
 * [Keren Censor-Hillel](http://ckeren.net.technion.ac.il/)
   * [Publications](http://ckeren.net.technion.ac.il/publications/)
   > My research interests are mainly in distributed computing,
@@ -118,7 +120,8 @@ that facilitate scalable synchronization in shared memory multiprocessors.
   * [2017](http://dblp.uni-trier.de/db/conf/podc/podc2017.html)
 * [DISC](http://www.dblp.org/search/index.php#query=venue:disc:&qp=H1.587:W1.1:F1.4:F2.1:F3.4:F4.2)
 * [SIROCCO: Structural Information & Communication Complexity](http://dblp.uni-trier.de/db/conf/sirocco/)
-* [OPODIS](http://dblp.uni-trier.de/search/publ?q=venue%3AOPODIS%3A)
+* [OPODIS](http://dblp.uni-trier.de/db/conf/opodis)
+* [SSS](http://dblp.uni-trier.de/db/conf/sss/)
 * [Distributed Computing (DC)](http://www.springer.com/computer/communication+networks/journal/446); [DC in DBLP](http://www.dblp.org/search/index.php#query=venue:distributed_computing_dc_:&qp=H1.519:W1.1:F1.4:F2.1:F3.4:F4.1)
 * [Bulletin of EATCS (European Association for Theoretical Computer Science)](http://www.eatcs.org/index.php/on-line-issues)
 * [Distributed Computing Column of Bulletin of EATCS](http://webee.technion.ac.il/~idish/sigactNews/)
