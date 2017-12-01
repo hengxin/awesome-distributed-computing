@@ -61,18 +61,22 @@ including people, conferences/journals, lecture notes, open courses, videos, and
 * [Carole Delporte-Gallet](https://www.irif.fr/~cd/)
   * [DBLP](http://dblp.uni-trier.de/pers/hd/d/Delporte=Gallet:Carole.html)
 * [Eli Gafni](http://web.cs.ucla.edu/~eli/eli.html)
+* [Sebastian Burckhardt](https://www.microsoft.com/en-us/research/people/sburckha/)
+> My research interest are programming models to program distributed, parallel, 
+  or concurrent or systems conveniently, efficiently, and correctly.
 
 ### People on Fundamentals of Multiprocessor Programming Theory
 * [Maurice Herlihy](http://cs.brown.edu/~mph/)
 * [Nir Shavit @MIT](http://people.csail.mit.edu/shanir/)
   
 * [Victor Luchangco @ Oracle Labs](https://labs.oracle.com/pls/apex/f?p=labs:bio:0:76)
-> Victor Luchangco works in the Scalable Synchronization Group of Oracle Labs. His research focuses on developing algorithms and mechanisms to support concurrent programming on large-scale distributed systems.
+> Victor Luchangco works in the Scalable Synchronization Group of Oracle Labs. 
+  His research focuses on developing algorithms and mechanisms to support concurrent programming on large-scale distributed systems.
 
 * [Mark Moir @ Oracle Labs](https://labs.oracle.com/pls/apex/f?p=labs:bio:0:86)
 > Moir's main research interests concern practical and theoretical aspects of concurrent, distributed, and real-time systems, 
-particularly hardware and software support for programming constructs 
-that facilitate scalable synchronization in shared memory multiprocessors.
+  particularly hardware and software support for programming constructs 
+  that facilitate scalable synchronization in shared memory multiprocessors.
 
 * [Sarita V. Adve](http://dblp.uni-trier.de/pers/hd/a/Adve:Sarita_V=) 
 > On memory models.
@@ -106,6 +110,9 @@ that facilitate scalable synchronization in shared memory multiprocessors.
 * [SODA: Symposium on Discrete Algorithms](http://dblp.uni-trier.de/db/conf/soda/)
 * [ICALP: International Colloquium on Automata, Languages and Programming](http://dblp.uni-trier.de/db/conf/icalp/)
 * [MFCS: Mathematical Foundations of Computer Science](http://dblp.uni-trier.de/db/conf/mfcs/)
+* [ALGO](https://algo2017.ac.tuwien.ac.at/)
+  
+  The annual ALGO congress is the leading international gathering of researchers on Algorithms in Europe.
 
 #### Journals
 * [JACM: Journal of the ACM](http://jacm.acm.org/) 
@@ -146,12 +153,14 @@ that facilitate scalable synchronization in shared memory multiprocessors.
   * [2016](http://dblp.uni-trier.de/db/conf/cloud/socc2016.html)
 
 ### Formal Methods (Logic)
+* [FME: Formal Methods Europe](http://www.fmeurope.org/)
 * [LICS: Logic in Computer Science](http://dblp.uni-trier.de/db/conf/lics/)
 * [CAV: Computer Aided Verification](http://dblp.uni-trier.de/db/conf/cav/)
 * [VMCAI: Verification, Model Checking and Abstract Interpretation](http://dblp.uni-trier.de/db/conf/vmcai/)
 * [FM: Formal Methods](http://dblp.uni-trier.de/db/conf/fm/)
 * [FMSD: Formal Methods in System Design](http://dblp.uni-trier.de/db/journals/fmsd/)
 * [FAC: Formal Aspects of Computing](http://dblp.uni-trier.de/db/journals/fac/)
+* [ABZ](http://dblp.uni-trier.de/db/conf/asm/)
 
 ### Databases
 #### Journals
@@ -170,7 +179,7 @@ that facilitate scalable synchronization in shared memory multiprocessors.
 > This workshop will bring together experts in the field (and some exceptional graduate students and postdocs) to discuss fundamental distributed computing problems whose computational complexities have not been resolved and the limitations of current techniques for obtaining lower bounds for these problems.
 - [FuDiCo: Future Directions in Distributed Computing 2004](http://www.cs.utexas.edu/users/lorenzo/sos/); [FuDiCo @ DBLP'2003](http://dblp.uni-trier.de/search/publ?q=Future%20Directions%20in%20Distributed%20Computing)
 
-## Prizes
+## Prizes and Awards
 * [The Edsger W. Dijkstra Prize in Distributed Computing](http://www.podc.org/dijkstra/)
 * [The Donald E. Knuth Prize for outstanding contributions to the foundations of computer science](http://www.sigact.org/Prizes/Knuth/)
 * [The Godel Prize for outstanding papers in the area of theoretical computer science](http://www.sigact.org/Prizes/Godel/)
@@ -180,7 +189,10 @@ that facilitate scalable synchronization in shared memory multiprocessors.
 ``Reasoning about infinite computations: This paper is a reworking and extension of a conference contribution of FOCS'83, which has become a major reference in the automata-theoretic approach to temporal logic.``
     * [1997 Godel Prize: Joseph Halpern and Yoram Moses](http://www.sigact.org/Prizes/Godel/1997.html)
 ``The Halpern-Moses paper provided a new and effective way of reasoning about distributed systems, providing rigorous and powerful new techniques based on epistemic logic.``
-* [Best Paper Award (by Jeff Huang)](http://jeffhuang.com/best_paper_awards.html)
+* [Best Paper Award (maintained by Jeff Huang)](http://jeffhuang.com/best_paper_awards.html)
+* [EAPLS Best PhD Dissertation Awards](http://eapls.org/pages/phd_award/#.WiC8ZenXaV5)
+> The European Association for Programming Languages and Systems has established a Best Dissertation Award 
+  in the international research area of programming languages and systems.
 
 ## Courses & Paper Reading Lists
 * [Distributed Algorithms (by Nancy A. Lynch)](http://stellar.mit.edu/S/course/6/fa11/6.852/index.html)
