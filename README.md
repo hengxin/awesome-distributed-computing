@@ -1,10 +1,12 @@
 # awesome-distributed-computing
 
-# Big List
+# big-list 
 - [Resources on Distributed Computing and Distributed Systems](https://github.com/hengxin/awesome-distributed-computing/blob/master/awesome-distributed-computing.md)
 
-# dir: crdt
+# /crdt
 Resource about CRDT
 
-## dir: consensus
+## /consensus
 Resource about Consensus
+
+## /lectures
