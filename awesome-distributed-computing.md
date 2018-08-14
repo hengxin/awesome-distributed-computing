@@ -25,12 +25,10 @@ including people, conferences/journals, lecture notes, open courses, videos, and
   with the goal of understanding how parameters of various models of computation affect their computational power.
   I also study data structures in distributed and sequential models.
 * [Philipp Woelfel](http://pages.cpsc.ucalgary.ca/~woelfel/)
-	> - Theory of Distributed Computing
-	> - Randomized Algorithms and Data Structures
-	> - Computational Complexity
+    > - Theory of Distributed Computing
+    > - Randomized Algorithms and Data Structures
+    > - Computational Complexity
 * [James Aspnes](http://cs-www.cs.yale.edu/homes/aspnes/)
-* [Alexey Gotsman](http://software.imdea.org/~gotsman/)
-> My research interests are in methods and tools for developing correct concurrent and distributed software.
 * [Keren Censor-Hillel](http://ckeren.net.technion.ac.il/)
   * [Publications](http://ckeren.net.technion.ac.il/publications/)
   > My research interests are mainly in distributed computing,
@@ -81,12 +79,28 @@ including people, conferences/journals, lecture notes, open courses, videos, and
 * [Sarita V. Adve](http://dblp.uni-trier.de/pers/hd/a/Adve:Sarita_V=) 
 > On memory models.
 
+### People on Programming Languages (including Consistency Models and (Weak) Memory Models)
+* [Alexey Gotsman](http://software.imdea.org/~gotsman/)
+> My research interests are in methods and tools for developing correct concurrent and distributed software.
+* [Sebastian Burckhardt](https://www.microsoft.com/en-us/research/people/sburckha/)
+> My research interests are programming models to program distributed, parallel, or concurrent or systems conveniently, efficiently, and correctly.
+  * [Publications](https://www.microsoft.com/en-us/research/people/sburckha/#!publications)
+* [Marko Vukolić @ IBM Research](http://vukolic.com/)
+> My research interests lie in the broad area of distributed systems.
+Some more specific topics that I am (currently) interested in include fault-tolerance, 
+blockchain and distributed ledgers, cloud computing security and distributed storage.
+* [Jade Alglave](http://www0.cs.ucl.ac.uk/staff/j.alglave/)
+* [Michael Emmi](http://michael-emmi.github.io/)
+> Michael’s research enables the construction of reliable software by developing the foundations 
+for effective programming abstractions and informative program analysis tools.
+
 ### People on the Theory of Distributed Systems
 * [Lidong Zhou @ Microsoft Research](http://research.microsoft.com/en-us/people/lidongz/)
 * [Haifeng Yu](http://www.comp.nus.edu.sg/~yuhf/)
 * [Peter Bailis](http://www.bailis.org/)
 * [Brian F. Cooper](http://www.brianfrankcooper.net/)
 > I am a software engineer at Google. Before that, I was a principal research scientist at Yahoo! Research. Before that I was an assistant professor at Georgia Tech, and before that I was a PhD student at Stanford.
+
 
 ## Research Groups
 * [TDS: Theory of Distributed Systems Group](http://groups.csail.mit.edu/tds/people.html)
@@ -124,7 +138,6 @@ including people, conferences/journals, lecture notes, open courses, videos, and
 
 ### Distributed Computing Theory
 * [PODC](http://dblp.uni-trier.de/db/conf/podc/)
-  * [2017](http://dblp.uni-trier.de/db/conf/podc/podc2017.html)
 * [DISC](http://www.dblp.org/search/index.php#query=venue:disc:&qp=H1.587:W1.1:F1.4:F2.1:F3.4:F4.2)
 * [SIROCCO: Structural Information & Communication Complexity](http://dblp.uni-trier.de/db/conf/sirocco/)
 * [OPODIS](http://dblp.uni-trier.de/db/conf/opodis)
@@ -140,6 +153,7 @@ including people, conferences/journals, lecture notes, open courses, videos, and
 * [PPoPP: Principles & Practice of Parallel Programming](http://dblp.uni-trier.de/db/conf/ppopp/)
 * [CONCUR](http://dblp.uni-trier.de/search/publ?q=venue%3ACONCUR%3A)
 * [Concurrency Column of Bulletin of EATCS](http://www.ru.is/faculty/luca/BEATCS/)
+* [ESOP: European Symposium on Programming](https://dblp.org/db/conf/esop/)
 
 ### Distributed Systems (and More General)
 * [NSDI: Networked Systems Design and Implementation](http://dblp.uni-trier.de/db/conf/nsdi/)
@@ -161,6 +175,9 @@ including people, conferences/journals, lecture notes, open courses, videos, and
 * [FMSD: Formal Methods in System Design](http://dblp.uni-trier.de/db/journals/fmsd/)
 * [FAC: Formal Aspects of Computing](http://dblp.uni-trier.de/db/journals/fac/)
 * [ABZ](http://dblp.uni-trier.de/db/conf/asm/)
+
+### Database Systems
+* [PODS: Symposium on Principles of Database Systems](https://dblp.uni-trier.de/db/conf/pods/index.html)
 
 ### Databases
 #### Journals
@@ -263,6 +280,8 @@ including people, conferences/journals, lecture notes, open courses, videos, and
 ## Tools
 * [Emulab - Network Emulation Testbed Home](http://www.emulab.net/)
 * [Prism - A Probabilistic Model Checker](https://www.prismmodelchecker.org/)
+* [APALACHE](http://forsyte.at/research/apalache/)
+> Abstraction-based parameterized TLA+ checker: Bringing state-of-the-art model checking to TLA+
 
 ## Blogs
 ### English
