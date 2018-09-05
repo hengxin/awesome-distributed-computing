@@ -108,6 +108,7 @@ for effective programming abstractions and informative program analysis tools.
 * [Idit Keidar's Research Group](http://webee.technion.ac.il/~idish/students.html)
 * [Google Research Group](http://research.google.com/)
 * [Yahoo! Labs](http://research.yahoo.com/)
+* [The IMDEA Software Institute](https://software.imdea.org/index.html)
 
 ## Conferences, Journals, Workshops, and Magazines (By Topics)
 
@@ -211,6 +212,9 @@ for effective programming abstractions and informative program analysis tools.
 > The European Association for Programming Languages and Systems has established a Best Dissertation Award 
   in the international research area of programming languages and systems.
 
+## Reports
+* [Dagstuhl Reports@DBLP](http://dblp.dagstuhl.de/db/journals/dagstuhl-reports/index.html)
+
 ## Courses & Paper Reading Lists
 * [Distributed Algorithms (by Nancy A. Lynch)](http://stellar.mit.edu/S/course/6/fa11/6.852/index.html)
 * [Synthesis Lectures on Distributed Computing Theory by Nancy A. Lynch](http://www.morganclaypool.com/toc/dct/1/1#lecturesAvailableOnline)
@@ -272,6 +276,9 @@ for effective programming abstractions and informative program analysis tools.
 > This course broadly examines distributed storage systems in its many manifestations. It explores how to harness and maintain the collective storage capabilities in storage systems from global-scale enterprises and cloud computing to peer-to-peer, ad hoc, and home networks.
 
 * [Video lecture of CSCI 1760 - FALL 2012: The Art of Multiprocessor Programming](http://www.brown.edu/cis/sta/dev/herlihy_csci1760_fa12/#vid)
+
+* [CSE 552 Fall 2013: Distributed and Parallel Systems](https://courses.cs.washington.edu/courses/cse552/13au/calendar/lecturelist.html)
+> Principles, techniques, and examples related to the design, implementation, and analysis of distributed and parallel computer systems.
 
 ## Computer Science Ph.D. Thesis
 * [New York University](http://cs.nyu.edu/web/Research/theses.html)
