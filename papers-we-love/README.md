@@ -1,6 +1,7 @@
 # Papers We Love
 
 ## OT
+- Systematic Black-Box Analysis of Collaborative Web Applications, Marina Billes, PLDI, 2017
 
 ## CRDT/RDT
 - Dependable Eventual Consistency with Replicated Data Types, Marek Zawirski, PhD Thesis, 2016
@@ -8,6 +9,7 @@
 - Specification and Complexity of Collaborative Text Editing, Hagit Attiya, PODC, 2016
 - Verifying Strong Eventual Consistency in Distributed Systems, Martin Kleppmann, 2017
 - OpSets: Sequential Specifications for Replicated Datatypes, Martin Kleppmann, arXiv, 2018
+- Abstract Unordered and Ordered Trees CRDT, Martin, arXiv, 2012
 
 ## (Memory) Consistency Models
 - Principles of Eventual Consistency, Sebastian Burckhardt, Book, 2014
@@ -30,7 +32,6 @@
 - Computing k-Atomicity in Polynomial Time, Wojciech Golab, SICOMPUT, 2018
 
 ## Testing and Verification
-- Systematic Black-Box Analysis of Collaborative Web Applications, Marina Billes, PLDI, 2017
 
 ## TLA+
 
