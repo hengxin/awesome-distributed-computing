@@ -18,3 +18,19 @@
 	- 方法一：证明。包括 manual proof 和 coq proof。
 	- 方法二：合成。参考论文PLDI'17《Synthesizing Memory Models from Framework Sketches and Litmus Tests》。
 
+## 2018-10-30 (周二; 下午) 
+
+- 经讨论，明确 PLDL'17 论文所关注的是多处理器系统中的内存模型，但是在基本原理上与我们关注的分布式计算中的一致性模型是相同的。对我们来说，PLDL'17 提供了一种研究方法。
+- 我推荐了 PLDI'17 论文报告视频
+
+## 2018-11-02 (周五; 晚上)
+
+简单聊了几句。
+
+谈到讨论班报告提纲:
+- 总: ***motivation*** (需要着重思考)
+- 分: PoEC + MemSynthesis
+- 总: 工作计划
+
+提到了 SMT，以后需要重点学习。
+

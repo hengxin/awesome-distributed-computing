@@ -1,6 +1,6 @@
 ﻿# Meetings
 
-## 2018-10-10 周三
+## 2018-10-10 (周三)
 
 主要有两项内容:
 
@@ -10,7 +10,7 @@
 实验目的包括:
 - XJupiter 与 CJupiter 本身的性质
 	- [x] $\forall c: sss[c] = css[c]$。
-- [ ] XJupiter 与 CJupiter 各自满足 SEC 和 WLSpec
+- [x] XJupiter 与 CJupiter 各自满足 SEC 和 WLSpec
 -  XJupiter 与 CJupiter 等价
 	- [ ] $\bigcup sss \text{ of XJupiter} \equiv css[\text{Server}] \text{ of CJupiter}$
 	- [ ] $\forall c \in \text{Client}: css[c] \text{ of XJupiter} \subseteq css[c] \text{ of CJupiter}$
@@ -31,5 +31,29 @@
 ### 一周计划
 
 ### 毕业设计安排
+- 改成: TLA+ Animation (以 Jupiter 为用例)　***[取消]***
 
+## 2018-10-29 (周一 下午)
 
+### 讨论
+主要讨论了周二小组讨论班的报告
+- 梳理逻辑、提纲
+
+### 毕业设计安排
+
+- AbsJupiter
+- $\text{XJupiter} \equiv \text{AJupiter}$
+  - 定义 Refinement mapping
+  - Model checking
+  - Manual proof
+
+## 2018-11-01 (周四 晚上)
+
+我介绍了 XJupiterImplCJupiter Module 的关键点:
+- XJupiterExtended Module with `soids` and `Cop with sctx`
+- $\text{CJ} \triangleq \text{INSTANCE CJupiter WITH} \cdots$
+	- $css \gets \cdots$
+		- $s2ss$ at the Server
+		- $c2ss$ at clients
+			- [ ] ***遗留问题:*** 这里是重点!!! 有Bug需要调试。
+	- $cur \gets \cdots$

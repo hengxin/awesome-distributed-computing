@@ -18,3 +18,16 @@
 - [ ] ***目标***: 交互式的 state-space graph
 
 可能需要学习 Graphviz/Dot 和其它交互式网页设计工具
+
+## 2018-10-29 (周一)
+讨论工作进展:
+- Redis
+	- 初步了解C/S架构
+- TLA toolbox (statespace visualizer)
+	- 初步了解两个工具
+
+确定近期工作（到本学期末）
+- [ ] Redis List 实现
+- [ ] TLA toolbox (statespace visualizer)
+- [ ] CRDT
+	- Attiya's RGA 算法的伪代码和 TLA+ 验证
