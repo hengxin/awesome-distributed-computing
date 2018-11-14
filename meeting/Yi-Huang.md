@@ -34,3 +34,20 @@
 
 提到了 SMT，以后需要重点学习。
 
+## 2018-11-06 (周二; 下午)
+
+接着讨论博士生讨论班报告提纲。
+
+三个理解 PoEC CM 的途径:
+- Testing/Verification: 给定一次执行$e$和一种CM $\mathcal{M}$, 设计算法判定$e$是否满足$\mathcal{M}$ [CAV2018]
+- Synthesis: 给定一组执行，能否合成一个接受(且仅接受)这组执行的 CM? [POPL2017]
+- Correspondence: PoEC 两套框架，它们定义的一致性模型真得等价吗? [POPL2014, CSUR2016]
+
+本报告着重介绍第二种途径，这是WMM领域中的工作，对我们有借鉴意义。
+
+## 2018-11-07 (周三; 下午)
+将 MemSynthesis 工作用到 PoEC consistency model 中的挑战:
+- 不同的序关系: TSO/PSO vs. PoEC
+- PoEC 中的 visbility/arbitration 关系更抽象
+- ＷＭＭ 中的 read/write register vs. PoEC 中的 RDT
+

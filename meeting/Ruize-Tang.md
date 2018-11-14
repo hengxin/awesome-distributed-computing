@@ -35,8 +35,7 @@
 
 ## 2018-10-29 (周一 下午)
 
-### 讨论
-主要讨论了周二小组讨论班的报告
+### 讨论周二小组讨论班的报告
 - 梳理逻辑、提纲
 
 ### 毕业设计安排
@@ -55,5 +54,20 @@
 	- $css \gets \cdots$
 		- $s2ss$ at the Server
 		- $c2ss$ at clients
-			- [ ] ***遗留问题:*** 这里是重点!!! 有Bug需要调试。
+			- [x] ***遗留问题:*** 这里是重点!!! 有Bug需要调试。
 	- $cur \gets \cdots$
+
+## 2018-11-09 (周五 晚上)
+
+### XJupiterImplCJupiter
+我介绍 XJupiterImplCJupiter的进展:
+- 关键: 去除了CJupiter 中的 soids 以及 Cop 操作的 sctx field; 使用 serial 代替 
+
+### 毕业设计安排
+- [ ] AJupiter => XJupiter
+- [ ] 阅读 Sun@TPDS09 COT 算法
+- [ ] CJupiter => AbsJupiter
+
+### TLA+ 讨论班安排
+- [ ] 毕业设计进展/Animation/Prophecy Variables (Cont.)
+

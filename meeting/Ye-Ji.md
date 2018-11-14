@@ -31,3 +31,13 @@
 - [ ] TLA toolbox (statespace visualizer)
 - [ ] CRDT
 	- Attiya's RGA 算法的伪代码和 TLA+ 验证
+
+## 2018-11-06 (周二; 下午)
+
+1. Attiya's RGA 算法的 TLA+ 描述与验证工作:
+	- 主要讨论了如何表示Tree结构
+		- $G = (V, E)$ 使用node和edge集合表示
+		- [ ] 挑战在于: 如何用 TLA+ 描述 tree 上的前序遍历算法
+2. 两个 Dot Visualizer 工具
+	-	现状: 在简单例子上仍然出错
+	-	[ ] 建议: 到 TLA+ Googlegroup 上寻求帮助
