@@ -30,7 +30,9 @@
 - [ ] Redis List 实现
 - [ ] TLA toolbox (statespace visualizer)
 - [ ] CRDT
-	- Attiya's RGA 算法的伪代码和 TLA+ 验证
+	- Attiya's RGA 协议的伪代码与 TLA+ 验证
+	- Roh's RGA 协议的伪代码与 TLA+ 验证
+	- Attiya's RGA 与 Roh's RGA 的等价性
 
 ## 2018-11-06 (周二; 下午)
 
@@ -41,3 +43,23 @@
 2. 两个 Dot Visualizer 工具
 	-	现状: 在简单例子上仍然出错
 	-	[ ] 建议: 到 TLA+ Googlegroup 上寻求帮助
+
+## 2018-11-20 (周二; 晚上)
+
+讨论 RGA 协议 (Attiya@PODC2016) 的 TLA+ 描述。讨论了下述内容，也留下了相关的TODO事项:
+
+- [ ] 模块化 P2P Comm Module
+- [ ] 测试 Tree  的 preorder traversal 操作符
+
+后续可能的新工作:
+- [ ] Attya's RGA 与 Roh's RGA 的等价性 (使用 TLA+ 验证)
+
+## 2018-12-04 (周二; 下午)
+
+- 讨论 RGA 协议的 TLA+ 描述
+	- 已完成协议描述
+	- 已完成 QC 验证
+	- [ ] 待完成 WLSpec 验证
+	- [ ] 待完成 SLSpec 验证
+- 讨论研究生阶段工作
+	- [ ] DynaStore 算法的 TLA+ 描述、验证与定理证明
