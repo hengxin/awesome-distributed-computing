@@ -48,7 +48,7 @@
 
 讨论 RGA 协议 (Attiya@PODC2016) 的 TLA+ 描述。讨论了下述内容，也留下了相关的TODO事项:
 
-- [ ] 模块化 P2P Comm Module
+- [x] 模块化 P2P Comm Module
 - [ ] 测试 Tree  的 preorder traversal 操作符
 
 后续可能的新工作:
@@ -59,7 +59,37 @@
 - 讨论 RGA 协议的 TLA+ 描述
 	- 已完成协议描述
 	- 已完成 QC 验证
-	- [ ] 待完成 WLSpec 验证
+	- [x] 待完成 WLSpec 验证
 	- [ ] 待完成 SLSpec 验证
 - 讨论研究生阶段工作
+	- [x] DynaStore 算法的 TLA+ 描述、验证与定理证明 (暂时弃用该计划)
+
+## 2018-12-07 (周五; 下午)
+
+- 讨论研究生阶段工作 (说明了两个可能的选择)
+	- [ ] TLC Debugger (including Animation)
 	- [ ] DynaStore 算法的 TLA+ 描述、验证与定理证明
+	- [ ] TLA+ + Consistency Model (2018-12-08 添加; 尚未讨论)
+
+## 2018-12-10 (周一; 上午)
+
+- 讨论研究生阶段工作
+	- 选择了 TLA+ + Theorem Proving + Consistency Model 工作
+	- 推荐了参考资料: 《Principles of Consistency Models》 与 《A Shared Memory Poetics》
+
+## 2018-12-14 (周五; 上午)
+- 查看了 TLA+ RGA 的部分代码
+- 规划了 TLA+ RGA-tree, RGA-list, Equiv 的论文写作计划
+- 规划了 硕士生讨论班 报告计划
+
+## 2018-01-03 (周四; 下午)
+- [x] 规划硕士生讨论班报告
+	- [x] 先介绍总体目标
+	- [x] 再介绍当前完成的工作
+- [ ] 规划论文写作
+	- [ ] GitHub 私有仓库
+	- [ ] 时间表
+	- [ ] 现在就开始做 PPT（作为每周的工作进度汇报）
+
+## 2018-01-10 (周四; 下午)
+- [x] 硕士生讨论班报告修改建议

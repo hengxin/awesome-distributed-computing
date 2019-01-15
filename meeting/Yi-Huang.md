@@ -46,8 +46,29 @@
 本报告着重介绍第二种途径，这是WMM领域中的工作，对我们有借鉴意义。
 
 ## 2018-11-07 (周三; 下午)
+
 将 MemSynthesis 工作用到 PoEC consistency model 中的挑战:
 - 不同的序关系: TSO/PSO vs. PoEC
 - PoEC 中的 visbility/arbitration 关系更抽象
 - ＷＭＭ 中的 read/write register vs. PoEC 中的 RDT
 
+## 2018-11-21 (周三; 下午)
+
+- [ ] 开始学习 Z3
+- [ ] 学习 MemSyn 工具
+	- [ ] 与作者联系
+	- [ ] 先运行起来
+	- [ ] 作演示
+- [x] 开始做等价性证明
+
+## 2018-12-11 (周二; 下午)
+
+讨论等价性证明工作进展:
+- 处于学习阶段
+- [ ] 明确近期目标:
+	- [ ] 证明 PRAM 一致性模型在两个框架下的等价性
+	- [ ] 证明多种 Causal Consistency （论文《Causal Consistency: Beyond Memory》）在两个框架下的等价性 
+
+## 2018-01-03 (周四; 下午)
+PRAM 在 PoEC 框架与 SM 框架下的定义与等价性证明。
+- [ ] 推荐论文 PDP'04: From Session Cauality to Causal Consistency 

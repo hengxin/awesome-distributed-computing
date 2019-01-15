@@ -26,3 +26,6 @@
 	- [ ] 扩展后的 Voting 仍然 Refine Consensus
 
 目前倾向于第二种方案。
+
+## 2018-12-12 (周三; 下午)
+- [ ] 布置 TLAPS 报告: 论文《TLA+ Proofs》by Lamport

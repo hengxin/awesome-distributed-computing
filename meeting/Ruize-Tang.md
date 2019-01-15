@@ -1,4 +1,4 @@
-﻿# Meetings
+﻿# Meeting with Ruize-Tang (唐瑞泽)
 
 ## 2018-10-10 (周三)
 
@@ -77,5 +77,41 @@
 
 确定了报告题目和报告提纲，基本不需要大的改动
 
-- [ ] 2018-11-26 (下周一) 发给我，再作最后的调整
+- [x] 2018-11-26 (下周一) 发给我，再作最后的调整
 
+## 2018-12-05 (周三; 上午)
+- [ ] AJupiter 的 #states 与 #distinct states 与 XJupiter/CJupiter 不同。这可能意味着错误或者未发现的 AJupiter 与众不同的地方
+	- [ ] 通过两个具体的测试用例定位可能的TLA+描述错误
+- 保持关注 Symmetry Set (包括 tlaplus-googlegroup 中的问题)
+	- [ ] ***将 Client 与 Priority 绑定:*** Client 定义为自然数，用作 Priority
+- [x] TLAPS
+	- [x] Chapter 10 & Chapter 11 of Hyperbook (已分配: 唐瑞泽)
+	- [x] Paper: TLA+ Proofs (已分配: 易星辰)
+- [ ] JMX profiling
+	- [ ] Disk IO
+	- [ ] Hotspot Methods
+
+## 2018-12-13 (周四; 下午)
+1. "Jupiter-Project":
+   - [x] `Do(c)` 如何放到 Jupiter Interface 的层面上? 尤其是如何将 Operation Generation 相关的逻辑分离出来?
+2. JupiterRefinment 论文写作
+   - [x] 抽取 Hyperbook 中有关 TLA+ 代码展示的 Commands
+
+## 2018-12-25 (周二; 上午)
+- [x] TLAPS Report 修改建议
+
+## 2018-12-27 (周四; 下午)
+- [x] 整理Hyperbook TLA+ 代码生成命令
+- [ ] 学习 TikZ, 绘制 Jupiter protocol 示意图
+
+## 2018-01-03 (周四; 下午)
+1. Jupiter-Project:
+	- [ ] AJupiter: # of states testing (high priority)
+	- [ ] History variable (low priority)
+
+## 2018-01-14 (周一; 上午)
+1. Jupiter-Project:
+	- [ ] 统计 Lamport/TLA+ Examples/Resources 实验规模 (两周时间)
+	- [ ] 学习 COT 算法，重点关注 COT Conditions 与 SEC/WLSpec 的关系。
+		- [ ] 本科毕业设计先证明 AbsJupiter 相关定理（然后是 CJupiter REFINE AbsJupiter 的相关定理）
+	- [ ] 检查 paper-jupiter-refinement 草稿

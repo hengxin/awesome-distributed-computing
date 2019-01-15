@@ -39,11 +39,11 @@ TR11: The PlusCal Code for Byzantine Paxos by Refinement
 
 ## 2018-11-23 (周五; 上午)
 
-PODC 计划:
-- Hamiltonian Path 归约到 IAV 的设想
+暂时放下 PODC'2018 计划:
+- [ ] Hamiltonian Path 归约到 IAV 的设想
 - 暂时放下
 
-CAV 计划:
+开始 CAV'2018 计划:
 - 2月初投稿
 - 提上日程
 - Jupiter 协议族的 TLA+ 验证 
@@ -54,5 +54,34 @@ CAV 计划:
 - [x] 安排与易星辰讨论 Paxos Refinement Mapping 的问题
 	- [x] 安排在 2018-11-30 (周五; 下午)
 - 讨论下步计划 (与唐瑞泽合作)
-	- Plan A: Theorem Proving for Jupiter
-	- Plan B: Synthesis of CMs
+	- [ ] Plan A: Theorem Proving for Jupiter (当前选定的计划)
+	- [ ] Plan B: Synthesis of CMs
+
+## 2018-12-06 (周四; 下午)
+
+1. 讨论易星辰当前关于 Paxos 的工作:
+	- 提出新的 Refinement 框架: Paxos -> Voting -> Consensus **+** TPaxos -> Voting' -> Consensus **+** Voting -> Voting'
+	- 待研究问题: 在上述 Refinement 框架中, 加入 DSM layer (可能可以参考 Paxos Register 的做法)
+2. 讨论纪业后续工作，可能的选择:
+	- TLC Debugger (包括但不限于 Animation)
+	- TLA+ + DynaStore
+	- TLA+ + Consistency Model (2018-12-08 补充)
+
+## 2018-12-07 (周五; 下午)
+讨论 TLC 实验的 Distributed Mode:
+- [ ] 查看 TLC 帮助文档
+- [ ] 在 Docker 中运行多个 TLC 实例 (用于快速测试)
+
+## 2018-12-11 (周二; 上午)
+- [ ] 推荐论文《Consensus Refined》，对如何撰写 Refinement 相关的论文有指导作用
+- [ ] 推荐论文《Paxos Consensus, Deconstructed and Abstracted》，提到了 Bound-based Register，对处理 Consensus Refinement 中的 DSM Layer 有帮助
+
+## 2018-12-12 (周三; 上午)
+- [ ] 讨论 "Coq 小组" 的组建工作
+- [ ] 讨论"Unlabeled Transition System" 中的 "Unlabeled" 的含义 (见 Cutoff Bound 论文)
+- [ ] Cutoff bound for Jupiter model checking?
+
+## 2018-12-12 (周三; 晚上)
+讨论纪业论文写作问题:
+- [ ] TLA+ for RGA **+** TLA+ for OpSets
+- [ ] TLA+ for RGA-Tree **+** TLA+ for RGA-List **+** Equivalence
