@@ -12,8 +12,8 @@
 	- [x] $\forall c: sss[c] = css[c]$。
 - [x] XJupiter 与 CJupiter 各自满足 SEC 和 WLSpec
 -  XJupiter 与 CJupiter 等价
-	- [ ] $\bigcup sss \text{ of XJupiter} \equiv css[\text{Server}] \text{ of CJupiter}$
-	- [ ] $\forall c \in \text{Client}: css[c] \text{ of XJupiter} \subseteq css[c] \text{ of CJupiter}$
+	- [x] $\bigcup sss \text{ of XJupiter} \equiv css[\text{Server}] \text{ of CJupiter}$
+	- [x] $\forall c \in \text{Client}: css[c] \text{ of XJupiter} \subseteq css[c] \text{ of CJupiter}$
 
 ### TLC 外围工具开发
 从 TLA Animation 入手。
@@ -64,9 +64,9 @@
 - 关键: 去除了CJupiter 中的 soids 以及 Cop 操作的 sctx field; 使用 serial 代替 
 
 ### 毕业设计安排
-- [ ] AJupiter => XJupiter
+- [x] AJupiter => XJupiter
 - [ ] 阅读 Sun@TPDS09 COT 算法
-- [ ] CJupiter => AbsJupiter
+- [x] CJupiter => AbsJupiter
 
 ### TLA+ 讨论班安排
 - [ ] 毕业设计进展/Animation/Prophecy Variables (Cont.)
@@ -104,14 +104,38 @@
 - [x] 整理Hyperbook TLA+ 代码生成命令
 - [ ] 学习 TikZ, 绘制 Jupiter protocol 示意图
 
-## 2018-01-03 (周四; 下午)
+## 2019-01-03 (周四; 下午)
 1. Jupiter-Project:
 	- [ ] AJupiter: # of states testing (high priority)
 	- [ ] History variable (low priority)
 
-## 2018-01-14 (周一; 上午)
+## 2019-01-14 (周一; 上午)
 1. Jupiter-Project:
 	- [ ] 统计 Lamport/TLA+ Examples/Resources 实验规模 (两周时间)
 	- [ ] 学习 COT 算法，重点关注 COT Conditions 与 SEC/WLSpec 的关系。
 		- [ ] 本科毕业设计先证明 AbsJupiter 相关定理（然后是 CJupiter REFINE AbsJupiter 的相关定理）
 	- [ ] 检查 paper-jupiter-refinement 草稿
+
+## 2019-01-17 (周四; 上午)
+- [ ] Jupiter-Project:
+	- [ ] 实验: Model Checking Results
+	- [ ] tla2tex 脚本 (建立 GitHub 仓库)
+		- [ ] detect all modified tla files
+		- [ ] .new => .tex
+		- [ ] cp to destination folder
+		- [ ] delete  (keep the comment lines)
+		- [ ] args: -s (src folder); -d (dest folder); -v (vertical space; using ratio); -font
+		- [ ] framed code for formatting
+		- [ ] keywords color
+
+## 2019-01-23 (周三; 上午)
+- [ ] QA 系统
+- [ ] 建立 GitHub 仓库, 注意收集“研究想法”
+- [ ] 论文: PLDI'17: Systematic Black-Box Analysis of Collaborative Web Applications
+	- [ ] TLC guided testing; Testing open-source collaborative text editing systems
+- [ ] 论文: FM'14: "Formal Verification of Operational Transformation"
+- [ ] TLC Trace Explorer
+- [ ] AJupiter 状态数问题: 易星辰遇到类似问题
+
+## 2019-
+- [ ] Cutoff bounds for Jupiter & COT
