@@ -65,10 +65,15 @@
 
 讨论等价性证明工作进展:
 - 处于学习阶段
-- [ ] 明确近期目标:
-	- [ ] 证明 PRAM 一致性模型在两个框架下的等价性
+- [x] 明确近期目标:
+	- [x] 证明 PRAM 一致性模型在两个框架下的等价性
 	- [ ] 证明多种 Causal Consistency （论文《Causal Consistency: Beyond Memory》）在两个框架下的等价性 
 
 ## 2018-01-03 (周四; 下午)
 PRAM 在 PoEC 框架与 SM 框架下的定义与等价性证明。
-- [ ] 推荐论文 PDP'04: From Session Cauality to Causal Consistency 
+- [x] 推荐论文 PDP'04: From Session Cauality to Causal Consistency 
+
+## 2018-01-23 (周三; 晚上)
+- [x] 推荐阅读论文: POPL19: Weak Consistency Specification via Visibility Relaxation
+
+## 2018-01-25 (周; 晚上)

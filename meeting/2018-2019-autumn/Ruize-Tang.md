@@ -129,13 +129,13 @@
 		- [ ] keywords color
 
 ## 2019-01-23 (周三; 上午)
-- [ ] QA 系统
 - [ ] 建立 GitHub 仓库, 注意收集“研究想法”
-- [ ] 论文: PLDI'17: Systematic Black-Box Analysis of Collaborative Web Applications
-	- [ ] TLC guided testing; Testing open-source collaborative text editing systems
-- [ ] 论文: FM'14: "Formal Verification of Operational Transformation"
-- [ ] TLC Trace Explorer
-- [ ] AJupiter 状态数问题: 易星辰遇到类似问题
+- [x] 推荐论文: PLDI'17: Systematic Black-Box Analysis of Collaborative Web Applications
+	- [ ] 可能的研究问题 TLC guided testing; Testing open-source collaborative text editing systems
+- [x] 推荐论文: FM'14: "Formal Verification of Operational Transformation"
+- [x] 提及AJupiter 状态数问题: 易星辰遇到类似问题
 
 ## 2019-
 - [ ] Cutoff bounds for Jupiter & COT
+- [ ] QA 系统
+- [ ] TLC Trace Explorer

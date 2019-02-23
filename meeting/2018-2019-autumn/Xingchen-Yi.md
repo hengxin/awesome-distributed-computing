@@ -28,4 +28,8 @@
 目前倾向于第二种方案。
 
 ## 2018-12-12 (周三; 下午)
-- [ ] 布置 TLAPS 报告: 论文《TLA+ Proofs》by Lamport
+- [x] 布置 TLAPS 报告: 论文《TLA+ Proofs》by Lamport
+
+## 2019-01-22 (周二; 上午)
+讨论 Paxos 的 Shared Memory Model (SMM) 抽象
+- [x] 推荐阅读论文 "Paxos Register"

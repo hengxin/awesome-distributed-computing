@@ -83,5 +83,5 @@ TR11: The PlusCal Code for Byzantine Paxos by Refinement
 
 ## 2018-12-12 (周三; 晚上)
 讨论纪业论文写作问题:
-- [ ] TLA+ for RGA **+** TLA+ for OpSets
-- [ ] TLA+ for RGA-Tree **+** TLA+ for RGA-List **+** Equivalence
+- [x] ~~TLA+ for RGA **+** TLA+ for OpSets~~
+- [x] TLA+ for RGA-Tree **+** TLA+ for RGA-List **+** Equivalence (采用该方案)
