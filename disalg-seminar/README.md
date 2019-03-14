@@ -26,3 +26,4 @@
 |	No.	|	Topic		|	Lecturer	|	Date		|	Material	                  |	
 | ------------- | --------------------- | --------------------- | --------------------- | --------------------------------------- |
 | 1		| Paxos Register	|	易星辰		| 2019-03-05 (周二)	| 论文: Paxos Register       |
+| 2		| CRDT + Isabelle	|	纪业		| 2019-03-12 (周二)	| 论文: Verifying Strong Consistency in Distributed Systems (Gomes@OOPSLA'2017)       |
