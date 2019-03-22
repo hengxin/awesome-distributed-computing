@@ -15,10 +15,20 @@
 3. 博士讨论班时间: 2019-04-?
 
 ## 2019-03-07 (周四; 下午)
-- VisRelax@POPL'19 论文讨论:
+- VisRelax@POPL'2019 论文讨论:
 	- Huang: 介绍了论文主要工作
-	- Wei: 讨论两项可能工作:
-		- 调研 RDT/CRDT 分布式数据库, 以它们为研究对象重复 VisRelax@POPL'19 工作
-		- 如何量化 visibility/arbitration (参考论文: Quantitative Relaxation of Concurrent Data Structures)
+	- Wei: 讨论三项可能工作:
+		- [ ] VisRelax 合成: 自动确认 (而非通过大量人工分析) Visibility Relaxation 的层次
+		- [ ] 调研 RDT/CRDT 分布式数据库, 以它们为研究对象重复 VisRelax@POPL'19 工作 (*最近的调研任务*)
+		- [ ] 如何量化 visibility/arbitration (参考论文: Quantitative Relaxation of Concurrent Data Structures)
 - Equiv 工作进展:
   - [ ] 待完成 Session Guarantees 的形式化描述与等价性证明
+
+## 2019-03-15 (周五; 晚上)
+- [ ] 讨论了在 Equiv 工作中遇到的困难: 如何理解 (vis + ar) 框架
+- [ ] 确定下下周小组报告: VisRelax@POPL'2019
+- [ ] 博士讨论班报告: AutoComp@POPL'2017 (挑战: Data Structures) 
+
+## 2019-03-22 (周五; 晚上)
+讨论 VisRelax@POPL'2019 小组报告:
+- 还需进一步提炼重点并形成报告提纲

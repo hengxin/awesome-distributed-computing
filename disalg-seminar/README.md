@@ -1,7 +1,12 @@
 ﻿# Disalg Seminar
 
+## 2019 春季学期
 
-# Schedules
+|	No.	|	Topic		|	Lecturer	|	Date		|	Material	                  |	
+| ------------- | --------------------- | --------------------- | --------------------- | --------------------------------------- |
+| 1		| Paxos Register	|	易星辰		| 2019-03-05 (周二)	| 论文: Paxos Register       |
+| 2		| CRDT + Isabelle	|	纪业		| 2019-03-12 (周二)	| 论文: Verifying Strong Consistency in Distributed Systems (Gomes@OOPSLA'2017)       |
+| 3		| CRDT Set 的实现	|	周舟		| 2019-03-19 (周二)	|      |
 
 ## 2018-2019 秋季学期
 
@@ -19,11 +24,3 @@
 | 10    | TLAPS			|	唐瑞泽		| 2018-12-25 (周二)  	| HB Chapters 10, 11			  |		
 | 11		| Consistency-Latency Tradeoff (Cassandra) |	欧阳凌志		| 2018-01-03 (周四)  	|	|	
 | 12		| TLA+ Proofs |	易星辰		| 2018-01-15 (周二)  	| 论文: TLA+ Proofs (2012)	|			
-
-
-## 2019 春季学期
-
-|	No.	|	Topic		|	Lecturer	|	Date		|	Material	                  |	
-| ------------- | --------------------- | --------------------- | --------------------- | --------------------------------------- |
-| 1		| Paxos Register	|	易星辰		| 2019-03-05 (周二)	| 论文: Paxos Register       |
-| 2		| CRDT + Isabelle	|	纪业		| 2019-03-12 (周二)	| 论文: Verifying Strong Consistency in Distributed Systems (Gomes@OOPSLA'2017)       |

@@ -28,4 +28,15 @@
 论文 MemSynth@PLDI'2017:
 	- 解释部分符号用法
 	- 暂时作为博士讨论班内容
-		- [ ] 下周二: 报告提纲
+		- [x] 下周二: 报告提纲
+
+## 2019-03-21 (周四; 下午)
+Disjoint Set 工作:
+- 场景 motivation 不足，严重影响论文进展
+- 可能会搁置该计划
+
+MemSynth@PLDI'2017:
+- 讨论报告提纲:
+	- 以 MemSynth 为主, Verification 等为次
+	- 报告时要有实验演示
+	- 学习顺序: Ocelot => Rosette => MemSynth => Racket
