@@ -95,6 +95,38 @@ Paper VerifyCC@:
 - Section 4.5: CCv (Causal Convergence) 对应于 Burckhardt 中的 causal consistency。
 - 受到很大启发:
 	- 需要阅读的相关文献: 
-	- [ ] ***Idea:*** Verifying Strong Eventual Consistency of Optimistic Replication Systems
+	- [ ] ***Idea:*** Verifying Strong Eventual Consistency of Optimistic Replication Systems (可能会有 cutoff bounds 结果)
 
 ## 2019-03-23 (周六)
+阅读论文 VerifyEC@POPL'2014:
+- Introduction
+	- 将 Eventual Consistency 分成 Safety 与 Liveness 两部分，值得借鉴
+	- Safety 部分使用 partial order。这与 $(vis, ar)$ 框架中的 $vis$ 相似。
+	- ***Liveness 部分也使用 partial order***。这是与 $(vis, ar)$ 框架中的 $ar$ 不同的地方，值得借鉴
+
+## 2019-03-25 (周一)
+阅读论文 VerifyEC@POPL'2014:
+- ORS: replica-centric, 不是 session-centric
+- Local interpretation $li[o]$ 不考虑操作的返回值
+	- 可以用 $vis$ relation 表示
+- Global interpretation $gi[o]$ 建模 liveness
+	- 对实现有影响 (否则会有 trivial 的实现满足 safety)
+	- 但是在规约层面重要吗?
+	- 还有其它有意义的 liveness condition 吗?
+
+扩展 $(vis, ar)$ 框架:
+- 两部分: local part + global part
+- local part 是 per-session view, 沿用 $vis$
+	- 如何解释这个 $vis$ 由具体数据类型决定 $\mathcal{F}$
+- global part 约束 all-session view (比如 $ar$ 所发挥的作用), 沿用 $ar$, 但是使用 partial order
+
+## 2019-03-26 (周二)
+- [x] 完成 cav2019-rebuttal 初稿 (与Ruizhe-Tang 讨论)
+	- [ ] Jupiter Figures (Tang) 
+- [x] 参加小组讨论班 (Yi-Huang: VisRelax@POPL'2019)
+
+## 2019-03-27 (周三)
+- [ ] 提交 cav2019-rebuttal
+- [ ] 计划投稿 FM'2019
+	- [ ] FM'2019 Abstract Registration
+- [x] 完成 android + fm 报告并发送给曹老师

@@ -38,5 +38,8 @@ Disjoint Set 工作:
 MemSynth@PLDI'2017:
 - 讨论报告提纲:
 	- 以 MemSynth 为主, Verification 等为次
-	- 报告时要有实验演示
-	- 学习顺序: Ocelot => Rosette => MemSynth => Racket
+	- [ ] 报告时要有实验演示
+	- [ ] 学习顺序: Ocelot => Rosette => MemSynth => Racket
+
+## 2019-03-27 (周三; 晚上)
+博士讨论班报告 MemSynth@PLDI'2017:

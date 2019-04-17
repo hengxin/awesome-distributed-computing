@@ -26,9 +26,23 @@
 
 ## 2019-03-15 (周五; 晚上)
 - [ ] 讨论了在 Equiv 工作中遇到的困难: 如何理解 (vis + ar) 框架
-- [ ] 确定下下周小组报告: VisRelax@POPL'2019
+- [x] 确定下下周小组报告: VisRelax@POPL'2019
 - [ ] 博士讨论班报告: AutoComp@POPL'2017 (挑战: Data Structures) 
 
 ## 2019-03-22 (周五; 晚上)
-讨论 VisRelax@POPL'2019 小组报告:
-- 还需进一步提炼重点并形成报告提纲
+讨论 VisRelax@POPL'2019 小组报告 (Yi-Huang, Xue-Jiang):
+- [x] 还需进一步提炼重点并形成报告提纲
+
+## 2019-03-25 (周一; 晚上)
+讨论 VisRelax@POPL'2019 小组报告 (Yi-Huang, Xue-Jiang):
+- [x] 提炼重点
+- [x] 讨论了计划
+	- [ ] 在分布式系统中重现该工作 (目前选择该计划) 
+	- [ ] $ar$ 扩展 
+
+## 2019-03-26 (周二; 下午)
+VisRelax@POPL'2019 计划:
+- [ ] 详细介绍并重现论文中的实验 
+	- [ ] 安排本周五晚上讨论 (Yi-Huang, Ruizhe-Tang, Xue-Jiang, Yuqi-Zhang)
+- [ ] 在分布式数据库中重现论文中的实验
+	- [ ] Riak, Redis, Cassandra 为序

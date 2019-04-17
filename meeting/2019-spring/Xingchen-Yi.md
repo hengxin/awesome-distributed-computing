@@ -14,3 +14,10 @@
 	- [ ] 问题: 如何区分 total vs. partial writes
 	- [ ] 我们目前的理解方式
 	- [ ] BTW: 不明确的定义
+
+## 2019-04-01 (周一; 下午)
+讨论 Paxos Register 的 TLA+ 实现:
+- [x] 上次讨论的关于 Parital vs. Total writes 的理解在 Model Checking 时发现错误
+- 新的理解:
+	- Write Action 分为 PartialWrite Action 与 TotalWrite Action。Write 在 issued 时候就立即选择是否成为 Total write。
+	- 避免判断 Overlapping时"端点相同"的边界情况
